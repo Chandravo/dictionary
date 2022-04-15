@@ -1,0 +1,75 @@
+html, body{
+   
+    background-size: cover;
+}
+
+
+
+.askdetails{
+    
+    position:absolute;
+    top:26%;
+    left:35%;
+    background-color: rgb(50, 172, 131);
+    opacity: 0.9;
+    padding: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 35px;
+    width: 200px;
+       
+}
+
+.mario{
+    font-family: Helvetica, sans-serif;
+    padding: 2%;
+    text-align: center;
+    border-radius: 20px;
+}
+.luigi{
+    font-family: Helvetica, sans-serif;
+    padding: 2%;
+    text-align: center;
+    border-radius: 20px;
+}
+.wario{
+    font-family: Helvetica, sans-serif;
+    padding: 2% ;
+    text-align: center;
+    border-radius: 20px;
+}
+.askdetails .file{
+    text-align: center;
+     font-size: 20px;
+     
+  
+}
+.neonText {
+    color: #fff;
+    font-size: 100px;
+    font-family:'Courier New';
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+.neontext {
+    color: #fff;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #0fa,
+        0 0 42px #0fa;
+        /* 0 0 82px #0fa; */
+        /* 0 0 92px #0fa,
+        0 0 102px #0fa; */
+        /* 0 0 151px #0fa; */
+}
+
