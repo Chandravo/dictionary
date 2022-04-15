@@ -30,11 +30,7 @@
             
 		</style>
         <body>
-            <script>
-                $(window).on("load",function(){
-                    $(".loader-wrapper").fadeOut("slow");
-               });
-            </script>
+            
             
             <center class="neonText" >DICTIONARY</center>
             <br />
@@ -55,7 +51,7 @@
             <br><br><br>
             <center>
             {% if data.word %}
-            <!-- <section class="askdetails"> -->
+            
             <p class="neontext"><b>Word : </b>{{data.word}}</p>
             
             <p class="neontext"><b>Phonetic : </b>{{data.Phonetics}} </p>
@@ -64,15 +60,10 @@
             <p class="neontext">{{i.partOfSpeech}} : {{i.definitions.0.definition}} </p>
             {% endfor %}
 
-            <!-- <p class="mario"><b>Origin :</b>{{data.Origin}}</p> -->
-            <!-- <p class="luigi"><b>Weather : </b>{{data.description}} </p>
-            <p class="wario"><b>Humidity : </b>{{data.humidity}} % </p>
-            <p class="wario"><b>Pressure : </b>{{data.pressure}} hPa</p>
-            <p class="wario"><b>Wind Speed : </b>{{data.wspeed}} m/s </p>
-            <p class="wario"><img src={{data.icon}} ></p> -->
+           
 
             
-            <!-- </section> -->
+            
             
             {% endif %}
             
